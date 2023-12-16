@@ -11,6 +11,16 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
 
     <title>
       Frontend Mentor | Huddle landing page with alternating feature blocks
@@ -22,123 +32,34 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> -->
   </head>
+
   <body>
-    <header>
-      <header>
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li><img src="" alt="" /></li>
-        </ul>
-        <button>Try It Free</button>
-      </header>
-      <section>
-        <h1>Build The Community Your Fans Will Love</h1>
-        <p>
-          Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <button type="button">Get Started For Free</button>
-      </section>
+    <header class="header-background">
+      <div class="container">
+
+        <header class="header">
+          <img class="header-logo" src="./images/logo-header.svg" alt="logo" />
+          <button class="header-btn">Try It Free</button>
+        </header>
+
+        <section class="header-section">
+          <section class="header-section-left">
+            <h1>Build The Community Your Fans Will Love</h1>
+            <p>
+              Huddle re-imagines the way we build communities. You have a voice,
+              but so does your audience. Create connections with your users as
+              you engage in genuine discussion.
+            </p>
+            <button type="button">Get Started For Free</button>
+          </section>
+          <section>
+            <img class="header-img" src="./images/illustration-mockups.svg" alt="illustration mockups">
+          </section>
+        </section>
+
+      </div>
     </header>
-    <main>
-      <article>
-        <section>
-          <h1>Grow Together</h1>
-          <p>
-            Generate meaningful discussions with your audience and build a
-            strong, loyal community. Think of the insightful conversations you
-            miss out on with a feedback form.
-          </p>
-        </section>
-        <section>
-          <!--IMG-->
-        </section>
-      </article>
 
-      <article>
-        <section>
-          <h1>Flowing Conversations</h1>
-          <p>
-            You wouldn't paginate a conversation in real life, so why do it
-            online? Our threads have just-in-time loading for a more natural
-            flow.
-          </p>
-        </section>
-        <section>
-          <!--IMG-->
-        </section>
-      </article>
-
-      <article>
-        <section>
-          <h1>Your Users</h1>
-          <p>
-            It takes no time at all to integrate Huddle with your app's
-            authentication solution. This means, once signed in to your app,
-            your users can start chatting immediately.
-          </p>
-        </section>
-        <section>
-          <!--IMG-->
-        </section>
-      </article>
-    </main>
-    <footer>
-      <div>
-        <h2>Ready To Build Your Community?</h2>
-        <button type="button">Get Started For Free</button>
-      </div>
-      <div>
-        <address>
-          <img src="" alt="" />
-          <ul>
-            <li>
-              <ul>
-                <li><img src="" alt="" /></li>
-                <li>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua
-                  </p>
-                </li>
-              </ul>
-              <ul>
-                <li><img src="" alt="" /></li>
-                <li><p>+1-543-123-4567</p></li>
-              </ul>
-              <ul>
-                <li><img src="" alt="" /></li>
-                <li><p>example@huddle.com</p></li>
-              </ul>
-            </li>
-          </ul>
-        </address>
-        <section>
-          <ul>
-            <li>About Us</li>
-            <li>What We Do</li>
-            <li>FAQ</li>
-          </ul>
-          <ul>
-            <li>Career</li>
-            <li>Blog</li>
-            <li>Contact Us</li>
-          </ul>
-        </section>
-        <section>
-          <nav>
-            <ul>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-              <li><img src="" alt="" /></li>
-            </ul>
-          </nav>
-          <p>&copy; Copyright 2018 Huddle. All rights reserved.</p>
-        </section>
-      </div>
-    </footer>
 
     <!-- <footer>
     <p class="attribution">
